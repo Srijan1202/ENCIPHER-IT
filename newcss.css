@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(50, 52, 55);;
+}
+.main2{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+.google{ 
+    margin-top: 20rem;
+    padding: 2rem 7rem 2rem 7rem;
+    border: 2px solid black;
+    background: linear-gradient(-120DEG,#4285F4, #34A853, #FBBC05, #EA4335);
+    border-radius: 15px;
+}
+@media(max-width: 500px){
+    .google{
+        margin-top: 7rem;
+    }
+}
